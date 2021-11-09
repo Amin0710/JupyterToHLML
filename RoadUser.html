@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head >
+<title>Index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #D3FEFE;
+  text-align: center;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+}
+.container {
+   height:100%;
+}
+</style>
+</head>
+<div id="container">
+<body >
+
+<div class="header">
+<h1>Aussie Road Fatalities</h1>
+</div>
+<table border = 1><tr><td>Road User</td><td>Total Fatalities</td></tr><tr><td>Pedestrian</td><td>7713</td></tr><tr><td>Passenger</td><td>11589</td></tr><tr><td>Motorcycle rider</td><td>5944</td></tr><tr><td>Driver</td><td>21943</td></tr><tr><td>Bicyclist (includes pillion passengers)</td><td>1290</td></tr><tr><td>Others</td><td>417</td></tr></table>
+<div class="footer">
+  <p>&copy Nurul Amin 2019</p>
+</div>
+
+</body>
+</div>
+</html>
